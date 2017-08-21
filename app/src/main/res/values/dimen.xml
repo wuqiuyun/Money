@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_layout_height">100dp</dimen>
+    <dimen name="list_title_height">45dp</dimen>
+
+
+    <!-- 字体大小 -->
+    <dimen name="font_max">24sp</dimen>
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_tiny">8sp</dimen>
+
+    <dimen name="marging_max">14sp</dimen>
+    <dimen name="marging_large">10sp</dimen>
+    <dimen name="marging_normal">8sp</dimen>
+    <dimen name="marging_small">6sp</dimen>
+
+    <dimen name="padding_max">14sp</dimen>
+    <dimen name="padding_large">10sp</dimen>
+    <dimen name="padding_normal">8sp</dimen>
+    <dimen name="padding_small">6sp</dimen>
+
+</resources>

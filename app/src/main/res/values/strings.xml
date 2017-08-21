@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Money</string>
+
+    <string name="tencent_service">腾讯服务</string>
+    <string name="time_limit_promotion">限时推广</string>
+    <string name="third_party_service">第三方服务</string>
+
+
+</resources>

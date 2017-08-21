@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.joey.money.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_layout_height"
+                android:background="@color/gray_dark"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/padding_large">
+
+                <TextView
+                    android:id="@+id/tv_shouqian"
+                    style="@style/title_layout_text_style"
+                    android:text="收付款" />
+
+                <TextView
+                    android:id="@+id/tv_money"
+                    style="@style/title_layout_text_style"
+                    android:text="零钱" />
+
+                <TextView
+                    android:id="@+id/tv_bank_card"
+                    style="@style/title_layout_text_style"
+                    android:text="银行卡" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tencent_service"
+                style="@style/list_title_style"
+                android:text="@string/tencent_service" />
+
+
+            <com.joey.money.wedget.MyGridView
+                android:id="@+id/gv_tencent_service"
+                style="@style/gridView_style"
+               />
+
+            <TextView
+                android:id="@+id/tv_time_limit_promotion"
+                style="@style/list_title_style"
+                android:text="@string/time_limit_promotion" />
+
+            <com.joey.money.wedget.MyGridView
+                android:id="@+id/gv_item"
+                style="@style/gridView_style" />
+
+            <TextView
+                android:id="@+id/tv_third_party_service"
+                style="@style/list_title_style"
+                android:text="@string/third_party_service" />
+
+            <com.joey.money.wedget.MyGridView
+                android:id="@+id/gv_third_party_service"
+                style="@style/gridView_style" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
